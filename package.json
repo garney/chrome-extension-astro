@@ -1,0 +1,29 @@
+{
+  "name": "login-extension-2",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.1",
+    "astro": "^4.13.1",
+    "html-escaper": "^3.0.3",
+    "local-storage": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.269",
+    "@types/shortid": "^0.0.32",
+    "esbuild": "^0.23.0",
+    "fs-extra": "^11.2.0",
+    "nodeman": "^1.1.2",
+    "shortid": "^2.2.16",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

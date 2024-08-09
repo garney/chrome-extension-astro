@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "My Astro Chrome Extension",
+    "description": "A Chrome extension built with Astro",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/index.html",
+      "default_icon": "monitor.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
